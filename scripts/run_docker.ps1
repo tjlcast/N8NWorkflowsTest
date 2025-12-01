@@ -1,0 +1,1 @@
+docker run -d --name n8n -p 5678:5678 -e GENERIC_TIMEZONE="Asia/Shanghai" -e TZ="Asia/Shanghai" -v C:\Users\phx10\code\N8NWorkflowsTest\container\.n8n:/home/node/.n8n -v C:\Users\phx10\code\N8NWorkflowsTest\container\n8ndata:/home/node/n8ndata docker.n8n.io/n8nio/n8n:1.115.3
